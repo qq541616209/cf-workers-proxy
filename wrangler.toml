@@ -1,0 +1,7 @@
+name = "cf-workers-proxy"
+main = "_worker.js"
+compatibility_date = "2026-11-17"
+
+[vars]
+PROXY_HOSTNAME = "api.openai.com"
+REGION_WHITELIST_REGEX = "(US|JP)"
